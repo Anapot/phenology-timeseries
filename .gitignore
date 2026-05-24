@@ -1,0 +1,10 @@
+__pycache__/
+.ipynb_checkpoints/
+*.parquet
+*.tif
+*.tiff
+!maps/*.tif
+!maps/*.tiff
+processed/
+outputs/
+smoothing1.py
