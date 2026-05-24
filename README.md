@@ -124,12 +124,6 @@ github_publication/
     beech_sample_50pixels_sos_doy_wide_2020.csv
     beech_sample_50pixels_sos_doy_wide_2021.csv
     beech_sample_50pixels_sos_doy_wide_2018_2021.csv
-  maps/
-    beech_sample_50pixels.tif
-    IRECI_SOS_DOY_2018.tif
-    IRECI_SOS_DOY_2019.tif
-    IRECI_SOS_DOY_2020.tif
-    IRECI_SOS_DOY_2021.tif
 ```
 
 ## Key Input and Output Files
@@ -190,16 +184,10 @@ Columns:
 - `IRECI_SOS_DOY`
 - `IRECI_SOS_DOY`
 
-### Example Maps
-
-Files:
-
-- `maps/IRECI_SOS_DOY_2018.tif`
-- `maps/IRECI_SOS_DOY_2019.tif`
-- `maps/IRECI_SOS_DOY_2020.tif`
-- `maps/IRECI_SOS_DOY_2021.tif`
-
-These are example yearly raster outputs in `EPSG:32633`.
+Note: GeoTIFF map files are not included in this repository. Yearly
+IRECI SOS GeoTIFFs can be produced optionally using
+`write_ireci_sos_yearly_tifs.py` when pixel `COORD_X`/`COORD_Y` are
+available; the main sample package ships only CSV outputs.
 
 ## How To Reproduce the Sample Outputs
 
