@@ -1,4 +1,4 @@
-# Beech Phenology Reproducibility Sample
+# Tree Phenology Reproducibility Sample
 
 Author: Ana Potočnik Buhvald  
 Affiliation: UL FGG  
